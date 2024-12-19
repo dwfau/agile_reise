@@ -1,0 +1,94 @@
+/* Grundlegende Styling-Regeln */
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 800
+
+
+
+body {
+    font-family: "open-sans", sans-serif;
+    margin: 0;
+    padding: 0;	
+		}
+
+/* Styling für den Header */
+
+header 
+		
+	.nav_container {
+		display:flex;
+		padding: 0% 0% 1% 0%;
+		background-color: white;
+		top: 0;	
+		z-index: 999;
+		position: sticky;
+					}
+		.nav_item1 {
+				width: 35%;
+				height: auto;
+					}
+							
+			.nav_item1 img {
+				box-sizing: border-box;
+				width: auto;
+				height: auto;
+				max-width:100%;
+				padding: 10% 17% 0% 10%;
+					}
+		
+/* Styling für den Hauptinhalt */
+main {
+    padding: 0px;
+	background-color: white;
+}
+	
+		.bild1 {
+		/* display: flex;*/
+		flex-direction: column;
+		align-items: center;
+		padding: 0%;
+		max-width: 100%;
+			}
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  /*align-items: flex-end;*/
+  justify-content: center;
+
+}
+
+	.image-container img, a {
+		width: 95%;
+		height: auto;
+		padding: 2% 2% 2% 2%;
+					}
+				
+	
+
+
+/* Styling für Überschriften */
+h1 {
+	font-weight: 10;
+	letter-spacing: 2px;
+	font-size: 28px;
+	color: #7E7F7E;	  
+}
+h2 {
+	font-weight: blond;
+	font-size: 14px;
+	color: #7E7F7E;	  
+}
+
+/* Styling für Absätze */
+p {
+    line-height: 1.5;
+}
+
+/* Styling für Links */
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+
