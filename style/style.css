@@ -1,40 +1,52 @@
-/* Grundlegende Styling-Regeln */
-
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 300 to 800
-
-
-
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 body {
     font-family: "open-sans", sans-serif;
-    margin: 0;
-    padding: 0;	
-		}
-
-/* Styling für den Header */
+	padding: 0px;
+}
 
 header 
-		
 	.nav_container {
 		display:flex;
-		padding: 0% 0% 1% 0%;
-		background-color: white;
-		top: 0;	
+		padding: 0% 0% 0% 0%;
 		z-index: 999;
+		Top: 0;
 		position: sticky;
-					}
-		.nav_item1 {
-				width: 35%;
-				height: auto;
-					}
-							
-			.nav_item1 img {
-				box-sizing: border-box;
-				width: auto;
-				height: auto;
-				max-width:100%;
-				padding: 10% 17% 0% 10%;
-					}
+		background-color: white;
+		}
+
+		.logo {
+			display: flex;
+			width: 25%;
+			height: auto;
+			align-items: center;
+			justify-content: center; /* Center the image horizontally */
+		  }
+		  
+		  .logo img {
+			max-width: 80%;
+			max-height: 80%;
+			padding: 5%;	
+			
+			}
+			
+
+		.menu {
+			display: flex;
+			justify-content:space-around;
+			align-items: flex-end;
+			width: 75%;
+			height: auto;
+			font-size: 1.5vw;
+			}
+			
+	
+			.menu a {
+				color: #72C1E8;
+				}
 		
 /* Styling für den Hauptinhalt */
 main {
@@ -46,7 +58,7 @@ main {
 		/* display: flex;*/
 		flex-direction: column;
 		align-items: center;
-		padding: 0%;
+		padding: 0% 0% 2% 0%;
 		max-width: 100%;
 			}
 
